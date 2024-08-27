@@ -65,7 +65,7 @@ def generate_merton_jump(
             for CUDA tensor types.
         engine (callable, default=torch.randn): The desired generator of random numbers
             from a standard normal distribution.
-            A function call ``engine(size, dtype=None, device=None)``
+            A function call `engine(size, dtype=None, device=None)`
             should return a tensor filled with random numbers
             from a standard normal distribution.
 
